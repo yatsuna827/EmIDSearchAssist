@@ -1,0 +1,17 @@
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\bin\Debug\EmIDSearcher.exe.config
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\bin\Debug\EmIDSearcher.exe
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\bin\Debug\EmIDSearcher.pdb
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\bin\Debug\Pokemon3genRNGLirary.dll
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\bin\Debug\PokemonPRNG.dll
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\bin\Debug\Pokemon3genRNGLirary.pdb
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\bin\Debug\PokemonPRNG.pdb
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\obj\Debug\EmIDSearcher.csprojAssemblyReference.cache
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\obj\Debug\EmIDSearcher.Form1.resources
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\obj\Debug\EmIDSearcher.Properties.Resources.resources
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\obj\Debug\EmIDSearcher.csproj.GenerateResource.cache
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\obj\Debug\EmIDSearcher.csproj.CoreCompileInputs.cache
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\obj\Debug\EmIDSearcher.csproj.CopyComplete
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\obj\Debug\EmIDSearcher.exe
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\obj\Debug\EmIDSearcher.pdb
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\obj\Debug\EmIDSearcher.SearchTargetForm.resources
+C:\Users\yatsu\Documents\develop\cs\EmIDSearcher\EmIDSearcher\obj\Debug\EmIDSearcher.CalcBackForm.resources
