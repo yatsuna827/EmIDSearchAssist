@@ -29,6 +29,7 @@ namespace EmIDSearcher
             SortedPokemonList = pokeList.ToArray();
             PokemonBox.Items.AddRange(pokeList.Select(_ => _.Name).ToArray());
         }
+        private List<PSVListItem> PSVListItems;
 
         Pokemon.Species[] SortedPokemonList;
         Nature[] SortedNatureList;
@@ -94,15 +95,22 @@ namespace EmIDSearcher
             }
 
             var PSVList = resList.Select(res => ((res.Pokemon.PID >> 16) ^ (res.Pokemon.PID & 0xFFFF)) >> 3).Distinct().ToArray();
-            foreach(var PSV in PSVList)
+            PSVListItems = new List<PSVListItem>();
+            foreach (var PSV in PSVList)
             {
-                DataGridViewRow row = new DataGridViewRow();
-                row.CreateCells(dataGridView1);
-                row.SetValues(new object[] { PSV });
-                dataGridView1.Rows.Add(row);
+                PSVListItems.Add(new PSVListItem(PSV));
             }
+            pSVListItemBindingSource.DataSource = PSVListItems;
         }
 
+
+        private void DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0 || e.ColumnIndex < 0) return;
+            if (!(dataGridView1[e.ColumnIndex, e.RowIndex] is DataGridViewCheckBoxCell cell)) return;
+
+            dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value = !(bool)cell.Value;
+        }
 
         private void TextBox_SelectText(object sender, EventArgs e) { ((TextBox)sender).SelectAll(); }
         private void NumericUpDown_SelectValue(object sender, EventArgs e) { ((NumericUpDown)sender).Select(0, ((NumericUpDown)sender).Text.Length); }

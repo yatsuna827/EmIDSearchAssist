@@ -375,6 +375,7 @@
             this.dataGridView1.RowTemplate.Height = 21;
             this.dataGridView1.Size = new System.Drawing.Size(242, 405);
             this.dataGridView1.TabIndex = 40;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellClick);
             // 
             // pSVDataGridViewTextBoxColumn
             // 
